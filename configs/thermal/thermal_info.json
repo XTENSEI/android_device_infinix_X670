@@ -1,0 +1,32 @@
+{
+  "thermal": [
+    {
+      "name": "cpu0",
+      "type": "cpu",
+      "path": "/sys/class/thermal/thermal_zone0",
+      "trip_points": [
+        {"temp": 45000, "type": "passive"},
+        {"temp": 60000, "type": "severe"},
+        {"temp": 75000, "type": "critical"}
+      ]
+    },
+    {
+      "name": "battery",
+      "type": "battery",
+      "path": "/sys/class/thermal/thermal_zone1",
+      "trip_points": [
+        {"temp": 40000, "type": "passive"},
+        {"temp": 50000, "type": "severe"}
+      ]
+    },
+    {
+      "name": "gpu",
+      "type": "gpu",
+      "path": "/sys/class/thermal/thermal_zone2",
+      "trip_points": [
+        {"temp": 45000, "type": "passive"},
+        {"temp": 60000, "type": "severe"}
+      ]
+    }
+  ]
+}
