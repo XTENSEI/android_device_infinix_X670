@@ -1,0 +1,13 @@
+# Vendor logtags for Infinix X670
+# Custom logging tags for debugging
+
+V vendor.audio.a2dp 3
+V vendor.audio.afe 3
+V vendor.audio.bluetooth 3
+V vendor.audio.cp 3
+V vendor.audio.device 3
+V vendor.audio.flag 3
+V vendor.audio.hifi 3
+V vendor.audio.primary 3
+V vendor.audio.record 3
+V vendor.audio.usb 3
