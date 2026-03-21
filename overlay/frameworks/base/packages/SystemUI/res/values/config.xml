@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="qs_show_ambient_music">false</bool>
+    <bool name="qs_show_battery_estimate">true</bool>
+    <bool name="qs_use_new_qqs">true</bool>
+</resources>
