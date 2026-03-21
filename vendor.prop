@@ -8,6 +8,12 @@ ro.virtual_ab.enabled=true
 ro.virtual_ab.compression.enabled=true
 
 # Audio
+ro.vendor.audio.game.proaffle=true
+ro.vendor.audio.scenario.support=true
+ro.vendor.audio.voice.volume.bridge=true
+persist.vendor.audio.voice_receiver.path=/dev/null
+
+# Audio
 ro.vendor.tran_audio_game_mode.support=1
 
 # Board
