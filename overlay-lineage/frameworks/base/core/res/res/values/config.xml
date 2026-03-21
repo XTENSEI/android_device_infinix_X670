@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Status bar -->
+    <bool name="config_showStatusBar">true</bool>
+    <bool name="config_showNavigationBar">true</bool>
+    
+    <!-- Display -->
+    <integer name="config_defaultScreenBrightness">128</integer>
+    <bool name="config_automatic_brightness_available">true</bool>
+    
+    <!-- Quick Settings -->
+    <bool name="config_qsShowTilesPort">true</bool>
+    <bool name="config_qsShowTilesLand">true</bool>
+    
+    <!-- Notifications -->
+    <bool name="notification_sound_package_switch_enabled">true</bool>
+    
+    <!-- Bluetooth -->
+    <string name="config_bluetooth_a2dp_sink_priority">1000</string>
+    <string name="config_bluetooth_headset_priority">1000</string>
+    <string name="config_bluetooth_audio_profile_priority">1000</string>
+</resources>
