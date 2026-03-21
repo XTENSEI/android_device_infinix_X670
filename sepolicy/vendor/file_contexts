@@ -1,0 +1,39 @@
+# Custom file contexts for Infinix X670
+
+# Touchscreen
+/dev/touchpanel                                u:object_r:touch_device:s0
+/dev/proximity                                 u:object_r:prox_device:s0
+
+# Sensors
+/dev/als_ps                                   u:object_r:sensors_device:s0
+/dev/hwmsensor                                 u:object_r:sensors_device:s0
+/dev/msensor                                  u:object_r:sensors_device:s0
+/dev/gyroscope                                u:object_r:sensors_device:s0
+/dev/acce_lite                                u:object_r:sensors_device:s0
+/dev/mag_lite                                 u:object_r:sensors_device:s0
+
+# Fingerprint
+/dev/goodix_fp                               u:object_r:fingerprint_device:s0
+/dev/fpsensor                                u:object_r:fingerprint_device:s0
+
+# USB
+/dev/usb/android_adb                          u:object_r:usb_device:s0
+/dev/usb/android_accessory                   u:object_r:usb_device:s0
+
+# Camera
+/dev/camera-sensor                           u:object_r:camera_device:s0
+/dev/v4l-subdev*                             u:object_r:camera_device:s0
+
+# Video
+/dev/video*                                  u:object_r:video_device:s0
+
+# Audio
+/dev/snd/*                                   u:object_r:audio_device:s0
+
+# Graphics
+/dev/mali*                                   u:object_r:gpu_device:s0
+/dev/dri/*                                   u:object_r:gpu_device:s0
+
+# Wi-Fi
+/dev/wmtWifi                                 u:object_r:wifi_device:s0
+/dev/wmtWifi_dev                             u:object_r:wifi_device:s0
