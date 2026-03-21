@@ -1,0 +1,21 @@
+# Property contexts for Infinix X670
+
+# Audio properties
+vendor.audio.                    u:object_r:vendor_audio_prop:s0
+persist.vendor.audio.            u:object_r:vendor_audio_prop:s0
+
+# Camera properties
+vendor.camera.                   u:object_r:vendor_camera_prop:s0
+persist.vendor.camera.           u:object_r:vendor_camera_prop:s0
+
+# Display properties
+vendor.display.                  u:object_r:vendor_display_prop:s0
+persist.vendor.display.          u:object_r:vendor_display_prop:s0
+
+# Power properties
+vendor.power.                    u:object_r:vendor_power_prop:s0
+persist.vendor.power.            u:object_r:vendor_power_prop:s0
+
+# Thermal properties
+vendor.thermal.                  u:object_r:vendor_thermal_prop:s0
+persist.vendor.thermal.           u:object_r:vendor_thermal_prop:s0
