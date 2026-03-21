@@ -1,0 +1,16 @@
+// Vibrator HAL for Infinix X670
+
+cc_binary {
+    name: "android.hardware.vibrator-service.X670",
+    vendor: true,
+    srcs: ["VibratorService.cpp"],
+    shared_libs: [
+        "android.hardware.vibrator@1.0",
+        "android.hardware.vibrator@1.1",
+        "android.hardware.vibrator@1.2",
+        "liblog",
+        "libutils",
+        "libcutils",
+        "libhidlbase",
+    ],
+}
