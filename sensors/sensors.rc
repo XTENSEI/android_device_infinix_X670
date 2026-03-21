@@ -1,0 +1,17 @@
+// Sensors HAL for Infinix X670
+
+cc_binary {
+    name: "android.hardware.sensors-service.X670",
+    vendor: true,
+    srcs: ["Sensors.cpp"],
+    shared_libs: [
+        "android.hardware.sensors@1.0",
+        "liblog",
+        "libutils",
+        "libcutils",
+        "libhidlbase",
+    ],
+    static_libs: [
+        "android.hardware.sensors@1.0-convert",
+    ],
+}
