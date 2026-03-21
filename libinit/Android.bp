@@ -1,0 +1,10 @@
+// Infinix X670 libinit
+
+cc_library_static {
+    name: "init_X670",
+    vendor: true,
+    srcs: ["libinit_X670.cpp"],
+    header_libs: [
+        "libinit_utils_headers",
+    ],
+}

@@ -1,0 +1,6 @@
+# Proprietary files for Infinix X670
+# This file should contain all the vendor blobs needed to build the device
+# Format: <source>:<destination>
+
+# This is a placeholder - actual blobs should be extracted from the X670 dump
+# See /home/andrei/python30/Infinix-X670/proprietary-files.txt for the full list

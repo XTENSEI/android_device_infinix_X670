@@ -1,0 +1,53 @@
+# Vendor properties for Infinix X670
+# Based on stock firmware properties from X670 dump
+
+# A/B
+ro.build.ab_update=true
+ro.boot.dynamic_partitions=true
+ro.virtual_ab.enabled=true
+ro.virtual_ab.compression.enabled=true
+
+# Audio
+ro.vendor.tran_audio_game_mode.support=1
+
+# Board
+ro.product.board=Infinix-X670
+ro.board.platform=mt6781
+
+# Camera
+vendor.mtk_camera.app.fd.video=1
+
+# DRM
+ro.vendor.keymaster_version=4.1
+ro.vendor.mtk_pq_color_mode=1
+ro.vendor.mtk_pq_support=2
+
+# Display
+ro.vendor.composer_version=2.1
+
+# Memory
+ro.vendor.mm.defrag.support=1
+ro.vendor.memfusion.support=1
+
+# Platform
+ro.vndk.version=31
+ro.vendor.mediatek.platform=MT6781
+ro.vendor.mtk_single_bin_modem_support=1
+ro.vendor.mtk_embms_support=1
+
+# Security
+ro.vendor.security_patch=2024-02-05
+
+# Storage
+ro.vendor.mtk_f2fs_enable=1
+
+# Thermal
+ro.vendor.mtk_aod_support=1
+ro.vendor.tran.hbm.thermal-patch=/devices/virtual/thermal/thermal_zone1
+ro.vendor.tran.hbm.thermal.temp.trig=44000
+ro.vendor.tran.hbm.thermal.temp.clr=42000
+
+# Other
+ro.frp.pst=/dev/block/by-name/frp
+ro.hardware.paytrigger=trustonic
+ro.opengles.version=196610

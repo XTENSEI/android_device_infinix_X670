@@ -1,0 +1,25 @@
+# Android fstab file for Infinix X670 (MT6781)
+# Generated for LineageOS recovery
+
+#<src>                                                <mnt_point>         <type>  <mnt_flags and options>                               <fs_mgr_flags>
+/dev/block/by-name/system                              /system            ext4    ro,barrier=1                                        wait,slotselect,avb=vbmeta_system,logical,first_stage_mount
+/dev/block/by-name/system_ext                         /system_ext        ext4    ro,barrier=1                                        wait,slotselect,avb=vbmeta_system,logical,first_stage_mount
+/dev/block/by-name/product                             /product           ext4    ro,barrier=1                                        wait,slotselect,avb=vbmeta_system,logical,first_stage_mount
+/dev/block/by-name/vendor                              /vendor            ext4    ro,barrier=1                                        wait,slotselect,avb=vbmeta_vendor,logical,first_stage_mount
+/dev/block/by-name/odm                                /odm               ext4    ro,barrier=1                                        wait,slotselect,avb=vbmeta_vendor,logical,first_stage_mount
+
+/dev/block/by-name/userdata                           /data              f2fs    noatime,nosuid,nodev,discard                         wait,check,formattable,first_stage_mount,key=/metadata/vold/metadata_encryption
+
+/dev/block/by-name/boot                                /boot              emmc    defaults                                            defaults
+/dev/block/by-name/recovery                            /recovery          emmc    defaults                                            defaults
+/dev/block/by-name/dtbo                               /dtbo              emmc    defaults                                            defaults
+
+# Metadata partition for encryption
+/dev/block/by-name/metadata                            /metadata          ext4    noatime,nosuid,nodev,discard                         wait,formattable,first_stage_mount
+
+# FRP partition
+/dev/block/by-name/frp                                /persistent        ext4    defaults                                            defaults
+
+# Misc
+/dev/block/by-name/nvdata                             /nvdata            ext4    defaults                                            defaults
+/dev/block/by-name/nvcfg                             /nvcfg             ext4    defaults                                            defaults
